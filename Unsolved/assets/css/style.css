@@ -1,0 +1,63 @@
+/* Set the margin and padding of the body element to 0 */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Center align the h1 element */
+h1 {
+  text-align: center;
+}
+
+/* Style the question element by center aligning the text, setting the font weight to bold, and adding some margin to the top */
+#question {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+/* Style the choices element by centering its contents, and adding some margin to the top */
+#choices {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Style the individual choices within the choices element by setting the background color to blue, text color to white, adding some padding and border radius, setting the margin between choices, and changing the cursor on hover */
+.choices {
+  background-color: #0077c2;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+/* Style the choices element on hover by changing the background color */
+.choices:hover {
+  background-color: #003e7e;
+}
+
+/* Position the timer element in the top right corner of the page using absolute positioning */
+#timer {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+/* Position the top-scores element in the top right corner of the page with some padding, and center align the h2 element within it */
+#top-scores {
+  position: absolute;
+  top: 10px;
+  right: 100px;
+}
+
+/* Style the h2 element within the top-scores element by setting the font size, adding some margin to the bottom, and center aligning the text */
+#top-scores h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: center;
+}
